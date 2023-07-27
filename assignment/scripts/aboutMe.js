@@ -28,7 +28,7 @@ pets = 2;
 let allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if( adventurous == true ){
+if( adventurous === true ){
     console.log( "Adventures are great!");
 }
 else {
@@ -36,7 +36,7 @@ else {
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if ( luckyNumber == 2 && adventurous == true){
+if ( luckyNumber === 2 && adventurous === true){
     console.log("Roll the dice");
 }
 
@@ -48,7 +48,7 @@ if ( luckyNumber == 2 && adventurous == true){
 if( pets < allowedPets ){
     console.log("I can have more pets!");
 }
-if( pets == allowedPets ){
+if( pets === allowedPets ){
     console.log("I have enough pets");
 }
 if( pets > allowedPets ){
@@ -68,7 +68,7 @@ if( pets > friendsPets ){
     mostPets = pets
     console.log("I have more pets than my friend");
 }
-else if ( pets == friendsPets){
+else if ( pets === friendsPets){
     mostPets = pets
     console.log( "My friend and I have the same amount of pets" );
 }
@@ -84,19 +84,19 @@ else{
 //      You'll need to research how to use switch statements!
 luckyNumber = 3;
 switch(true){
-case luckyNumber == 0: {
+case luckyNumber === 0: {
     console.log("Luck is what happens when preparation meets opportunity");
     break;
 }
-case luckyNumber == 1: {
+case luckyNumber === 1: {
     console.log("First is the worst");
     break;
 }
-case luckyNumber == 2: {
+case luckyNumber === 2: {
     console.log("Second is the best");
     break;
 }
-case luckyNumber == 3: {
+case luckyNumber === 3: {
     console.log("Third is the one with the polka dot dress");
     break;
 }
