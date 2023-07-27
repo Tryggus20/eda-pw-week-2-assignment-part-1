@@ -9,7 +9,7 @@ let fullName = firstName + lastName;
 // 4 - Console log the value of `fullName`
 console.log( fullName )
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 19
+let luckyNumber = 2
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -36,7 +36,7 @@ else{
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if ( luckyNumber == 2, adventurous == true){
+if ( luckyNumber == 2 && adventurous == true){
     console.log("Roll the dice")
 }
 
@@ -108,5 +108,6 @@ case luckyNumber > 3: {
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
-
+// 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
+console.log((adventurous) ? "Adventures are great!" : "How about we stay home?");
