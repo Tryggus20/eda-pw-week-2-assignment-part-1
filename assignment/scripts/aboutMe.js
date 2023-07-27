@@ -21,7 +21,7 @@ let food = 'ribs';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 0;
+let friendsPets = 1;
 // 11 - Add two pets to your `pets` variable
 pets = 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
@@ -37,7 +37,7 @@ else {
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 if ( luckyNumber == 2 && adventurous == true){
-    console.log("Roll the dice")
+    console.log("Roll the dice");
 }
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -46,13 +46,13 @@ if ( luckyNumber == 2 && adventurous == true){
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if( pets < allowedPets ){
-    console.log("I can have more pets!")
+    console.log("I can have more pets!");
 }
 if( pets == allowedPets ){
-    console.log("I have enough pets")
+    console.log("I have enough pets");
 }
 if( pets > allowedPets ){
-   console.log("Oh no, I have too many pets!")
+   console.log("Oh no, I have too many pets!");
 }
 
 
@@ -66,15 +66,15 @@ if( pets > allowedPets ){
 let mostPets = 0
 if( pets > friendsPets ){
     mostPets = pets
-    console.log("I have more pets than my friend")
+    console.log("I have more pets than my friend");
 }
 else if ( pets == friendsPets){
     mostPets = pets
-    console.log( "My friend and I have the same amount of pets" )
+    console.log( "My friend and I have the same amount of pets" );
 }
 else{
     mostPets = friendsPets
-    console.log( "My friend has more pets than me")
+    console.log( "My friend has more pets than me");
 }
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
@@ -82,7 +82,7 @@ else{
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-luckyNumber = 19
+luckyNumber = 3;
 switch(true){
 case luckyNumber == 0: {
     console.log("Luck is what happens when preparation meets opportunity");
@@ -105,8 +105,6 @@ case luckyNumber > 3: {
     break;
 }
 }
-
-
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
